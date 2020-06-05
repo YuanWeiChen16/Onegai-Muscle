@@ -1058,13 +1058,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   originOBJ:
-  - {fileID: 3814795044287949462, guid: c0ad7aa45bfe34a40837318783f5b6c6, type: 3}
-  - {fileID: 1275713693659234638, guid: ceece8c09334fb24f8c76f6549231dec, type: 3}
-  - {fileID: 5945033527711998631, guid: 357df79ecfef28f4ba12c4cc06bbf418, type: 3}
-  - {fileID: 9151289699242849548, guid: 188e7105bd974cb48b73cd3212c47bfb, type: 3}
+  - {fileID: 4827952143290013307, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
+  - {fileID: 4827952143290013307, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
+  - {fileID: 2776066512621393655, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
+  - {fileID: 2776066512621393655, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
   NewGameOBJ: {fileID: 0}
   Number: 0
-  spawnPos: {x: -2, y: 1.86, z: 2}
+  spawnPos: {x: 0, y: 0, z: 2}
   textt: {fileID: 150255847}
 --- !u!4 &1547163223
 Transform:

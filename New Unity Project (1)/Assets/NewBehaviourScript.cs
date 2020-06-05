@@ -8,41 +8,43 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject[] originOBJ;
     public GameObject NewGameOBJ;
     public int Number;
-    public Vector3 spawnPos = new Vector3(-2f, 1.86f, 2f);
+    public Vector3 spawnPos;
 
     public GameObject textt;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(NewGameOBJ==null)
+        if (NewGameOBJ == null)
         {
-            int tempp= Random.Range(0,4);
+            int tempp = Random.Range(0, 4);
             NewGameOBJ = Instantiate(originOBJ[tempp], spawnPos, Quaternion.identity);
+            Debug.Log(tempp);
         }
 
         Vector3 temp = NewGameOBJ.GetComponent<Transform>().position;
-        temp.z -= 0.5f*Time.deltaTime;
+        temp.z -=Time.deltaTime;
         NewGameOBJ.GetComponent<Transform>().position = temp;
-        if(temp.z<-2)
+        if (temp.z < -2)
         {
-           
             Destroy(NewGameOBJ);
             int tempp = Random.Range(0, 4);
+
             NewGameOBJ = Instantiate(originOBJ[tempp], spawnPos, Quaternion.identity);
+            Debug.Log(tempp);
         }
     }
 
     public void CallThisScript()
     {
-        
+
         Number++;
-        Debug.Log("call game controller"+ Number);
+        Debug.Log("call game controller" + Number);
 
         textt.GetComponent<Text>().text = "HIT : " + Number;
     }
