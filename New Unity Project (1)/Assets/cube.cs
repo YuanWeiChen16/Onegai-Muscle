@@ -26,4 +26,9 @@ public class cube : MonoBehaviour
         gameController.CallThisScript();
         //Debug.Log("DIE : ");
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        gameController.CallThisScript();
+        Debug.Log("DIE : ");
+    }
 }

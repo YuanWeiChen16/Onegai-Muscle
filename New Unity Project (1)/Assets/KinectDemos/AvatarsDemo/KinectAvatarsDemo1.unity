@@ -1058,10 +1058,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   originOBJ:
-  - {fileID: 4827952143290013307, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
-  - {fileID: 4827952143290013307, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
-  - {fileID: 2776066512621393655, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
-  - {fileID: 2776066512621393655, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
+  - {fileID: 2027426831148387263, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
+  - {fileID: 4362380337125809650, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
+  - {fileID: 2027426831148387263, guid: eda8ce6f8be75a444972004411688ddf, type: 3}
+  - {fileID: 4362380337125809650, guid: 5c9d4373fa4e7c849b90a6320f3c04e2, type: 3}
   NewGameOBJ: {fileID: 0}
   Number: 0
   spawnPos: {x: 0, y: 0, z: 2}
@@ -1274,7 +1274,12 @@ PrefabInstance:
     - target: {fileID: 4835364323545890043, guid: ffd8599b3d872354399816f18ec9fc83,
         type: 3}
       propertyPath: playerIndex
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053072260876053310, guid: ffd8599b3d872354399816f18ec9fc83,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffd8599b3d872354399816f18ec9fc83, type: 3}
@@ -1443,6 +1448,16 @@ PrefabInstance:
     - target: {fileID: 7833836191357472269, guid: ffd8599b3d872354399816f18ec9fc83,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835364323545890043, guid: ffd8599b3d872354399816f18ec9fc83,
+        type: 3}
+      propertyPath: playerIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053072260876053310, guid: ffd8599b3d872354399816f18ec9fc83,
+        type: 3}
+      propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
