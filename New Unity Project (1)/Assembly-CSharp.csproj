@@ -183,8 +183,12 @@
     <Compile Include="Assets\KinectScripts\Utilities\AsyncTask.cs" />
     <Compile Include="Assets\KinectScripts\VisualGestureManager.cs" />
     <Compile Include="Assets\OurGameObj\Script\cube.cs" />
+    <Compile Include="Assets\OurGameObj\Script\LoadNewScene.cs" />
+    <Compile Include="Assets\OurGameObj\Script\loadStartScene.cs" />
     <Compile Include="Assets\OurGameObj\Script\mirror.cs" />
     <Compile Include="Assets\OurGameObj\Script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\OurGameObj\Script\quitGame.cs" />
+    <Compile Include="Assets\OurGameObj\Script\sound.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
