@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "C:/Users/誰/Desktop/Muscle/ONEGAI~1/NEWUNI~1/Assets/OURGAM~1/GYM_MO~1/TREADM~1/TREADM~1.MB"`)
+{		
+	file -o "C:/Users/誰/Desktop/Muscle/ONEGAI~1/NEWUNI~1/Assets/OURGAM~1/GYM_MO~1/TREADM~1/TREADM~1.MB";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "C:/Users/誰/Desktop/Muscle/ONEGAI~1/NEWUNI~1/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "C:/Users/誰/Desktop/Muscle/ONEGAI~1/NEWUNI~1/Temp/CommandPipe";
+
+$donepipeKill = `fopen "C:/Users/誰/Desktop/Muscle/ONEGAI~1/NEWUNI~1/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

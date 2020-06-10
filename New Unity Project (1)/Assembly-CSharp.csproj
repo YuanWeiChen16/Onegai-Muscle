@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\cube.cs" />
     <Compile Include="Assets\KinectDemos\AvatarsDemo\Scripts\CameraPitchCorrector.cs" />
     <Compile Include="Assets\KinectDemos\AvatarsDemo\Scripts\OffsetNodeMover.cs" />
     <Compile Include="Assets\KinectDemos\BackgroundRemovalDemo\Scripts\ForegroundBlender.cs" />
@@ -183,7 +182,9 @@
     <Compile Include="Assets\KinectScripts\SpeechManager.cs" />
     <Compile Include="Assets\KinectScripts\Utilities\AsyncTask.cs" />
     <Compile Include="Assets\KinectScripts\VisualGestureManager.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\OurGameObj\Script\cube.cs" />
+    <Compile Include="Assets\OurGameObj\Script\mirror.cs" />
+    <Compile Include="Assets\OurGameObj\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
@@ -201,9 +202,11 @@
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Resources\DepthShader.shader" />
     <None Include="Assets\Resources\SpeechGrammar.grxml.txt" />
+    <None Include="Assets\OurGameObj\Shader\mirror.shader" />
     <None Include="Assets\Resources\BlurShader3.shader" />
     <None Include="Assets\KinectDemos\ProjectorDemo\Scripts\RoomAliveToolkit\Attribution.txt" />
     <None Include="Assets\Resources\Color2DepthShader.shader" />
+    <None Include="Assets\OurGameObj\GYM_Model\Treadmill\Details.txt" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
     <None Include="Assets\Resources\BlurShader2.shader" />
     <None Include="Assets\KinectDemos\BackgroundRemovalDemo\Resources\ForegroundBlendShader.shader" />
@@ -226,7 +229,7 @@
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\KinectDemos\ProjectorDemo\Resources\calibration.xml" />
     <None Include="Assets\Resources\BlurShader5.shader" />
-    <None Include="Assets\_Readme\License.txt" />
+    <None Include="Assets\KinectDemos\_Readme\License.txt" />
     <None Include="Assets\KinectDemos\FittingRoomDemo\Resources\Shaders\UserBlendShader.shader" />
     <None Include="Assets\KinectDemos\VisualizerDemo\Shaders\HoloTriangles.shader" />
     <None Include="Assets\Resources\Color2BodyShader.shader" />
